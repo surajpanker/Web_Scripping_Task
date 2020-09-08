@@ -4,17 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node main.js",
+    "dev": "node main.js",
+    "test": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
+    "jest": "^26.4.2",
+    "open-graph-scraper": "^4.5.1",
     "puppeteer": "^5.2.1",
     "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "request-promise": "^4.2.6",
+    "supertest": "^4.0.2"
   }
 }
