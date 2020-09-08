@@ -9,7 +9,7 @@ Npm Packages    : Nodemon,env-cmd  ;<br/>
 Testing package : jest,supertest ;<br/>
          
 
-Summary: 
+<strong>Summary: </strong>
 <h5>open-graph-scraper <h5/>A simple node module for scraping Open Graph and Twitter Card info off a site.
  <br>https://www.npmjs.com/package/open-graph-scraper<br>
   
