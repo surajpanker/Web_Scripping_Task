@@ -2,6 +2,7 @@
 Using nodejs
 1. npm  i
 2. npm start
+3. npm test {For testing}
 
 TechStack       : Nodejs,Express,git,Heroku,Js;<br/>
 Npm Packages    : Nodemon,env-cmd  ;<br/>
